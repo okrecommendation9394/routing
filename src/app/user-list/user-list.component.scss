@@ -1,0 +1,9 @@
+.user {
+  background-color: rgb(245, 159, 159);
+  display: inline-block;
+  margin-left: 5px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+}

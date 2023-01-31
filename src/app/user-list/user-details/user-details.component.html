@@ -1,0 +1,8 @@
+<ng-container *ngIf="selectedUser; else noUser">
+  <h3>{{ selectedUser.username }}</h3>
+  <div>{{ selectedUser.id }}</div>
+  <div>{{ selectedUser.firstName }}</div>
+  <div>{{ selectedUser.lastName }}</div>
+  <div>{{ selectedUser.aboutMe }}</div>
+</ng-container>
+<ng-template #noUser>User not found</ng-template>
